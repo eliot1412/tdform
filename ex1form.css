@@ -1,0 +1,50 @@
+label{
+    display: block;
+    float: left;
+    width: 8em;
+}
+
+
+.sexe{
+    display: flex;
+    margin-bottom: 1em;
+    
+}
+.sexe label{
+    width: 8em;
+    display: flex;
+    position: relative;
+    top: 1em;
+
+}
+.sexe .titre{
+    height: 2em;
+
+}
+
+input[type="submit"]{
+    padding: 0.7em;
+}
+textarea{
+    width: 15em;
+    height: 4em;
+    resize: none;
+    overflow: auto;
+}
+
+.coms{
+    display: flex;
+    margin-bottom: 1em;
+    
+}
+.coms label{
+    width: 8em;
+    display: flex;
+    position: relative;
+    top: 1em;
+
+}
+.coms .titre{
+    height: 4em;
+
+}
